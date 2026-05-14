@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Resultados</title>
+</head>
+<body>
+
+<h1>Resultados</h1>
+
+{% for candidate in candidates %}
+
+<h2>{{ candidate.name }}</h2>
+<p>{{ candidate.party }}</p>
+<p>Votos: {{ candidate.votes }}</p>
+
+<hr>
+
+{% endfor %}
+
+</body>
+</html>

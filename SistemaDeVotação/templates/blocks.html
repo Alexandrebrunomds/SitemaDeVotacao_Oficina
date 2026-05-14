@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Blockchain</title>
+</head>
+<body>
+
+<h1>Blockchain</h1>
+
+{% for block in blocks %}
+
+<div>
+
+<h2>Bloco {{ block.index }}</h2>
+
+<p><strong>Hash:</strong> {{ block.hash }}</p>
+
+<p><strong>Hash Anterior:</strong> {{ block.previous_hash }}</p>
+
+<p><strong>Nonce:</strong> {{ block.nonce }}</p>
+
+<p><strong>Timestamp:</strong>
+{{ block.timestamp | datetimeformat }}
+</p>
+
+<h3>Transações</h3>
+
+<pre>{{ block.transactions }}</pre>
+
+<hr>
+
+</div>
+
+{% endfor %}
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+contract sistemadevotacao {
+
+    struct Candidate {
+        uint id;
+        string name;
+        uint voteCount;
+    }
+
+    mapping(uint => Candidate) public candidates;
+
+    mapping(bytes32 => bool) public voters;
+
+    uint public candidatesCount;
+
+    constructor() {
+
+        addCandidate("Marcela");
+        addCandidate("Sergio");
+        addCandidate("Oswaldo");
+    }
+
+    function addCandidate(string memory _name) private {
+
+        candidatesCount++;
+
+        candidates[candidatesCount] = Candidate(
+            candidatesCount,
+            _name,
+            0
+        );
+    }
+
+    function vote(bytes32 cpfHash, uint candidateId) public {
+
+        require(!voters[cpfHash], "CPF ja votou");
+
+        require(
+            candidateId > 0 && candidateId <= candidatesCount,
+            "Candidato invalido"
+        );
+
+        voters[cpfHash] = true;
+
+        candidates[candidateId].voteCount++;
+    }
+
+    function getVotes(uint candidateId)
+        public
+        view
+        returns(uint)
+    {
+        return candidates[candidateId].voteCount;
+    }
+}

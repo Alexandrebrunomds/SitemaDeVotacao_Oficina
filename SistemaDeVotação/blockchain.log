@@ -1,0 +1,38 @@
+2026-05-13 19:04:02,637 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.15:5000
+2026-05-13 19:04:02,637 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-13 19:04:02,641 - INFO -  * Restarting with stat
+2026-05-13 19:04:03,134 - WARNING -  * Debugger is active!
+2026-05-13 19:04:03,139 - INFO -  * Debugger PIN: 185-107-707
+2026-05-13 19:04:20,932 - INFO - 127.0.0.1 - - [13/May/2026 19:04:20] "GET / HTTP/1.1" 200 -
+2026-05-13 19:04:21,051 - INFO - 127.0.0.1 - - [13/May/2026 19:04:21] "GET /static/style.css HTTP/1.1" 200 -
+2026-05-13 19:04:21,070 - INFO - 127.0.0.1 - - [13/May/2026 19:04:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-13 19:04:26,890 - INFO - 127.0.0.1 - - [13/May/2026 19:04:26] "POST /verify HTTP/1.1" 200 -
+2026-05-13 19:07:37,414 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.15:5000
+2026-05-13 19:07:37,414 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-13 19:07:37,418 - INFO -  * Restarting with stat
+2026-05-13 19:07:37,699 - WARNING -  * Debugger is active!
+2026-05-13 19:07:37,702 - INFO -  * Debugger PIN: 185-107-707
+2026-05-13 19:08:35,587 - INFO - 127.0.0.1 - - [13/May/2026 19:08:35] "GET / HTTP/1.1" 200 -
+2026-05-13 19:08:35,686 - INFO - 127.0.0.1 - - [13/May/2026 19:08:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-05-13 19:08:39,707 - INFO - 127.0.0.1 - - [13/May/2026 19:08:39] "POST /verify HTTP/1.1" 200 -
+2026-05-13 19:08:46,241 - INFO - 127.0.0.1 - - [13/May/2026 19:08:46] "[32mPOST /vote HTTP/1.1[0m" 302 -
+2026-05-13 19:08:46,248 - INFO - 127.0.0.1 - - [13/May/2026 19:08:46] "GET / HTTP/1.1" 200 -
+2026-05-13 19:08:46,288 - INFO - 127.0.0.1 - - [13/May/2026 19:08:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-05-13 19:08:48,372 - INFO - 127.0.0.1 - - [13/May/2026 19:08:48] "GET /results HTTP/1.1" 200 -
+2026-05-13 19:09:00,986 - INFO - 127.0.0.1 - - [13/May/2026 19:09:00] "GET /blocks HTTP/1.1" 200 -
+2026-05-13 19:09:13,142 - INFO - 127.0.0.1 - - [13/May/2026 19:09:13] "GET /results HTTP/1.1" 200 -
+2026-05-13 19:10:18,553 - INFO - 127.0.0.1 - - [13/May/2026 19:10:18] "[32mPOST /verify HTTP/1.1[0m" 302 -
+2026-05-13 19:10:18,561 - INFO - 127.0.0.1 - - [13/May/2026 19:10:18] "GET / HTTP/1.1" 200 -
+2026-05-13 19:10:18,608 - INFO - 127.0.0.1 - - [13/May/2026 19:10:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-05-13 19:10:47,874 - INFO - 127.0.0.1 - - [13/May/2026 19:10:47] "POST /verify HTTP/1.1" 200 -
+2026-05-13 19:36:10,606 - INFO - 127.0.0.1 - - [13/May/2026 19:36:10] "[32mPOST /vote HTTP/1.1[0m" 302 -
+2026-05-13 19:36:10,614 - INFO - 127.0.0.1 - - [13/May/2026 19:36:10] "GET / HTTP/1.1" 200 -
+2026-05-13 19:36:10,659 - INFO - 127.0.0.1 - - [13/May/2026 19:36:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-05-13 19:36:13,013 - INFO - 127.0.0.1 - - [13/May/2026 19:36:13] "GET /blocks HTTP/1.1" 200 -
+2026-05-13 20:05:17,995 - INFO - 127.0.0.1 - - [13/May/2026 20:05:17] "GET / HTTP/1.1" 200 -

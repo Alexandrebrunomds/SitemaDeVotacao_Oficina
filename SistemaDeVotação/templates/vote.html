@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Votação</title>
+</head>
+<body>
+
+<h1>Escolha seu candidato</h1>
+
+<form action="/vote" method="POST">
+
+    <input type="hidden" name="cpf" value="{{ voter.cpf }}">
+
+    <button type="submit" name="candidate" value="1">
+        Marcela
+    </button>
+
+    <button type="submit" name="candidate" value="2">
+        Sergio
+    </button>
+
+    <button type="submit" name="candidate" value="3">
+        Oswaldo
+    </button>
+
+</form>
+
+</body>
+</html>

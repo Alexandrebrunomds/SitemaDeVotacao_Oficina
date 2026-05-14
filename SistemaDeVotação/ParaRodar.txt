@@ -1,0 +1,5 @@
+Primeiro abra o terminal do Vs Code.
+
+depois de carregar copiar e colar : "python app.py"
+
+Depois abra o navegador e no endereço : http://127.0.0.1:5000
